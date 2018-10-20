@@ -1,0 +1,38 @@
+/* Styles go here */
+
+ .numberInput {
+
+    width:35px;
+}
+
+.inputButton {
+    width: 26%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  
+}
+
+ #buttonDiv {
+  float:left;
+  display:inline-block;
+  width: 390px;
+  border: 1px solid black;
+}
+
+#todoTextDiv{
+  display:inline-block;
+}
+
+.todoText {
+  padding: 5px 0px;
+} 
+
+.todoP {
+  /* border: 1px black solid; */
+  display: inline;
+  padding-right: 2px;
+}
+.deleteButton{
+  float: right;
+}
+

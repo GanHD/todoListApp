@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="buttonDiv">
+    <h1>Kevin's Todo List App</h1>
+    <button onclick="handlers.toggleAll()" class="inputButton">Toggle All</button>
+
+  </br>
+  </br>
+
+    <button onclick="handlers.addTodos()" class="inputButton" >Add Todo </button>
+    <input id="addTodoText" type="text">
+
+  </br>
+  </br>
+
+    <button onclick="handlers.toggleTodos()" class="inputButton">Toggle Todo</button>
+    <input type="number" class="numberInput" id="toggleTodoNumber">
+
+  </br>
+  </br>
+
+   <button onclick="handlers.changeTodos()" class="inputButton">Change Todo</button>
+   <input id="changeTodoText" type="text">
+   <input id="changeTodoNumber" type="number" class="numberInput">
+    </div>
+
+
+
+  <div id="todoTextDiv">
+    </br>
+    </br>
+    <p>The Todo List:</p>
+      <ul id="todoListUl">
+        <p>It's Empty!</p>
+      </ul>
+  </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
