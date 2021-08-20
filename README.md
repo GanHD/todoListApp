@@ -1,3 +1,5 @@
-A simple todo List in Javascript By Kevin Johnson
+A simple nested todo list in Javascript
+
+By Kevin Johnson
 
 
